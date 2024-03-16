@@ -1,0 +1,29 @@
+*{
+    margin: 0PX;
+    padding: 0PX;
+}
+
+.header {
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: end;
+    padding: 50px;
+
+    
+
+}
+
+li a {
+  text-decoration: none; 
+  color: white; 
+} 
+
+.menu{
+display: flex;
+list-style: none;
+
+}
+
+li{
+margin: 10px;
+}
