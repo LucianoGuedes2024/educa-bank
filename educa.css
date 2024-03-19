@@ -1,21 +1,24 @@
 *{
     margin: 0PX;
     padding: 0PX;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
 .header {
     background-color: cornflowerblue;
     display: flex;
     justify-content: end;
-    padding: 50px;
+    padding: 70px;
 
     
 
 }
 
-li a {
+.menu li a {
   text-decoration: none; 
-  color: white; 
+  color: white;
+  
 } 
 
 .menu{
@@ -24,6 +27,21 @@ list-style: none;
 
 }
 
-li{
+.menu li{
 margin: 10px;
 }
+
+.menu li a {
+  text-decoration: none;
+  
+}
+
+.menu a:hover  {
+ color: blue;
+ transition: 0.8s;
+ 
+}
+
+
+
+
