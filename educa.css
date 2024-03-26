@@ -115,10 +115,78 @@ margin: 10px;
   margin-top: -70px;
 }
  
+#container{
+
+  padding: 15rem;
+  background-color: rgb(226, 233,233);
+
+}
+
+#container h2 {
+  font-size: 40px;
+  text-align: center;
+  color: blue;
+  margin-top: -20rem;
+  margin-bottom: 2rem;
+}
+  #container  p {
+
+  font-size:1.4rem ;
+  color: rgb(34, 34 , 74);
+  margin-bottom: 40px;
+  text-align: justify;
+  }
+
+    #container button{
+
+      padding: 25px;
+      border-radius: 50px;;
+      border-color: blue;
+      width: 20em;
+      cursor: pointer;
+      background-color: aqua;
+      
+    }
+  
+   #container button a{
+
+   color: rgb(234, 234, 241);
+   text-decoration: none;
+   
+   }
+
+    #container button:hover{
+   background-color: blue;
+    }
+
+   
+    .line{
+
+      width: 70%;
+      margin: 45px auto;
+    }
+
+    #container img{
+    width: 45rem;
+    margin-left: 50px;
+
+    }
+
+    #container-cofre{
+
+      background: linear-gradient(180deg, #0c16a364 8.33%, rgba( 5, 39, 101, 0.745) 100%), url(imagens/img\ cofre\ fundo.jpg);
+    }
+ 
 /* px é uamunidade de medida de tamanho fixo.*/
 
 /*em ele trabalhaem relação ao tamanho de font do elemento pai */
 
-/*rem - root em = ele vai depender do elemento pai de tudo
+/*rem - root em = ele vai depender do elemento pai de tudo (html) documento principal da pagina*/
+ 
+/*html{ font- zise : 62,5%/* mais usual usar este parimetro para contagem*/
+ 
+/* vh-wiewport height tamanho em relação a tela do usuario*/
+
+/* vw -viewport width tamanho(largura) em relação da tela do ususrio*/
 
 
