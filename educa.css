@@ -51,7 +51,7 @@ margin: 10px;
 
 #sessao h2{
 
-  font-size: 3em;
+  font-size: 1em;
   color: rgba rgba(0, 0, 0, 0.753);
 }
 
@@ -67,8 +67,19 @@ margin: 10px;
   border-color: aquamarine;
   width: 20em;
   cursor: pointer;
-
+ 
 }
+
+#sessao button:hover {
+  transition: 1s;
+  color: white;
+  background-color: black;
+} 
+
+
+
+
+
 
 #sessao button a {
 
@@ -93,8 +104,16 @@ margin: 10px;
   border-color:  aquamarine;
   width: 20em;
   cursor: pointer;
+
  }
 
+ 
+ #app button:hover {
+  transition: 1s;
+  color: white;
+  background-color: black;
+
+ }
 
  #app button a {
 
@@ -140,13 +159,19 @@ margin: 10px;
     #container button{
 
       padding: 25px;
-      border-radius: 50px;;
-      border-color: blue;
+      border-radius: 50px;
+      border-color: aquamarine;
       width: 20em;
       cursor: pointer;
-      background-color: aqua;
       
     }
+
+    #container button:hover {
+      transition: 1s;
+      color: white;
+      background-color: black;
+    } 
+    
   
    #container button a{
 
@@ -154,10 +179,6 @@ margin: 10px;
    text-decoration: none;
    
    }
-
-    #container button:hover{
-   background-color: blue;
-    }
 
    
     .line{
@@ -172,11 +193,70 @@ margin: 10px;
 
     }
 
-    #container-cofre{
+    #container-cofre {
 
       background: linear-gradient(180deg, #0c16a364 8.33%, rgba( 5, 39, 101, 0.745) 100%), url(imagens/img\ cofre\ fundo.jpg);
+      background-position: center;
+      background-attachment: fixed;
+      display: flex;
+      align-items: center;
+     justify-content: space-evenly;
+
+    } 
+    
+
+   #container-cofre img {
+   width: 20rem;
+   height: auto;
+   margin-top: 9rem;
+
+   }
+
+
+   #container-cofre h2{
+
+    color: white;
+    font-size: 30px;
+    text-align: center;
+   }
+
+
+   #container-cofre p {
+   color: white;
+   font-size: 17px;
+   text-align: center;
+   margin-top: 2rem;
+   margin-left: 1rem;
+   font-weight: 800;
+
     }
+
+   footer {
+    padding: 3rem;
+    background-color:grey ; 
+    text-align: center;
+    
+    
  
+   }
+    
+   footer div {
+   display: flex;
+   margin-top: 20px;
+   justify-content: space-between;
+   }
+
+   footer div a{
+    text-decoration: none;
+    color: white;
+   }
+
+   footer div a:hover{
+    color: purple;
+    transition: 0.8;
+
+   }
+
 /* px é uamunidade de medida de tamanho fixo.*/
 
 /*em ele trabalhaem relação ao tamanho de font do elemento pai */
