@@ -266,20 +266,49 @@ margin: 10px;
     
    
     
-   @media screen and (max-widht:1920px){
+   @media screen and (max-width:1920px){
     
    }
 
-   @media screen and (max-widht:480px){
+   @media screen and (max-width:480px){
+    
     
    }
 
-   @media screen and (max-widht:767px){
+   @media screen and (max-width:767px){
+
     
    }
 
-   @media screen and(max-widht:1366px){
+   @media screen and(max-width:1366px){
+
      } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
    @media screen and (max-width:991px){
@@ -331,8 +360,8 @@ margin-top: 1rem;
    }
 
 
+}
    
-  } 
     
     
 
