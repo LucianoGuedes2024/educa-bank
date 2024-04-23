@@ -17,8 +17,9 @@
 
 .menu li a { /* é minha classe de listas */
   text-decoration: none; 
+  text-decoration: none;
+  font-size: 50px;
   color: white;
-  
 } 
 
 .menu{
@@ -31,10 +32,6 @@ list-style: none;
 margin: 10px;
 }
 
-.menu li a {
-  text-decoration: none;
-  
-}
 
 .menu a:hover  {
  color: blue;
@@ -274,11 +271,27 @@ margin: 10px;
     
    }
 
-   @media screen and (max-width:767px){       /*TELA TABLET*/
+   @media screen and (max-width:400px){       /*TELA TABLET*/
       
     #sessao {
-      padding: 30vh;
+      padding: 4em;
+      
+      
     }
+
+    .menu li{
+      margin:1em;
+    }
+
+
+    .menu li a { /* é minha classe de listas */
+      text-decoration: none; 
+      color: white;
+      font-size: 2vh;
+    } 
+    
+
+/*
     
     #app {
      padding: 30vh;
@@ -292,7 +305,7 @@ margin: 10px;
 
     #line {
       padding: 25vh;
-    }
+    }*/
 
    }
 
