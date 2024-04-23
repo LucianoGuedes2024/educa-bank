@@ -252,10 +252,9 @@ margin: 10px;
     color: white;
    }
 
-   footer div a:hover{1366
+   footer div a:hover{
     color: purple;
-    transition: 0.8;
-
+    transition: 0.8s;
    }
    
   /*480x*/
@@ -266,21 +265,40 @@ margin: 10px;
     
    
     
-   @media screen and (max-width:1920px){
+   @media screen and (max-width:1920px){      /*TELA MAIOR*/
     
    }
 
-   @media screen and (max-width:480px){
+   @media screen and (max-width:480px){        /*TELA CELULAR*/
     
     
    }
 
-   @media screen and (max-width:767px){
-
+   @media screen and (max-width:767px){       /*TELA TABLET*/
+      
+    #sessao {
+      padding: 30vh;
+    }
     
+    #app {
+     padding: 30vh;
+    }
+
+
+    #container {
+    padding: 30vh;
+    }
+
+
+    #line {
+      padding: 25vh;
+    }
+
    }
 
-   @media screen and(max-width:1366px){
+   @media screen and(max-width:1366px){      /*TELA MAIOR*/
+
+
 
      } 
 
