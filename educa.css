@@ -17,8 +17,8 @@
 
 .menu li a { /* é minha classe de listas */
   text-decoration: none; 
-  text-decoration: none;
-  font-size: 50px;
+  display: flex;
+  font-size: 30px;
   color: white;
 } 
 
@@ -41,7 +41,7 @@ margin: 10px;
 
 #sessao {
 
-  padding: 15rem;
+  padding: 30px;
   background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(9,121,116,1) 35%, rgba(0,212,255,1) 100%);
 }
 
